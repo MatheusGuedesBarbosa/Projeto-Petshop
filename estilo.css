@@ -1,0 +1,134 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  
+   
+}
+
+header{
+    margin: 44px 0 144px 76px;
+
+}
+.logo-image{
+    width: 560px;
+    height: 500px;
+    margin-left: 125px;
+   
+   
+}
+
+.link-header{
+    font-weight: 680px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;
+    margin-right: 23px;
+    display: inline-block;
+}
+section{
+    display: inline-block;
+    margin-left: 120px;
+}
+h1{
+    font-weight: 900;
+    font-size:100px ;
+    line-height:122px ;
+    color: #989d9c;
+   line-height: 6px;
+    
+
+
+
+}
+h2{
+    font-weight: 500 ;
+    font-size: 58px;
+    line-height: 4px ;
+}
+P{
+    
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    color: #989d9c;
+    width: 515px;
+}
+.button-main{
+background: #adff00;
+border-radius: 30px;
+width:239px ;
+height: 64px;
+border:none;
+cursor: pointer;
+filter: drop-shadow(0px 4px 4px black);
+font-weight:700 ;
+font-size: 28px;
+line-height: 34px;
+
+}
+.button-header{
+    border-radius: 20.5px;
+    background: #665ae1;
+    width: 130px;
+    height: 41px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+
+}
+.link-header:hover{
+    color: #665ae1;
+}
+@media screen and (max-width: 1306px){
+    .container{
+        width: 600px;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+    .contrainer{
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+    }
+    .logo-image{
+        position: static;
+        width: 360px;
+         height: 300px;
+        
+      
+    }
+.link-header{
+    display: none;
+}
+.button-header{
+    display: none;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 20px;
+    line-height: 5px ;
+}
+P{
+    font-size: 20px;
+}
+.button-main{
+    background: #adff00;
+    border-radius: 30px;
+    width:130px ;
+   height: 100;
+    border:none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px black);
+    font-weight:700 ;
+    font-size: 20px;
+    line-height: 34px;
+    
+}
+}
